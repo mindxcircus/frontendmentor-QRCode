@@ -1,0 +1,42 @@
+body {
+    font-family:'Outfit',sans-serif;
+    background: hsl(212, 45%, 89%);
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    position: relative;
+    transform: translateY(50%);
+}
+
+.card {
+    max-width: 300px;
+    background-color: white;
+    padding: 1em;
+    border-radius: 15px;   
+    
+}
+
+img {
+    border-radius: 15px;
+    max-width: 300px;
+}
+
+h2 {
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+}
+
+p {
+    text-align: center;
+    font-size:  15px;
+    color: hsl(220, 15%, 55%);
+}
+
+@media screen and (max-width: 375px){
+    .container {
+        transform: translateY(10%);
+    }
+}
+    
